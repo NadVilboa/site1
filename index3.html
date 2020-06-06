@@ -1,6 +1,9 @@
 <html>
   <title>Алгоритмика</title>
   <style>
+    body {
+        font-family: Helvetica;
+    }
     header,footer {
       padding: 15px;
       margin: 20px;
@@ -8,20 +11,72 @@
     footer {
       background-color: #833ae0ff;
       color: white;
+      width: 550px;
+      height: 40px;
+      margin: 100px 20px;
+    }
+    h1 {
+        float: left;
+        margin-left: 40px;
+    }
+    a {
+        color: white;
+    }
+    main {
+        margin: 30px 30px 0px 30px;
+        height: 200px;
+        width: 600px;
+        padding-left: 20px;
     }
     .logo {
-      height: 60px;
-      width: auto;
-     }
+        float:left;
+    }
+    .image-post {
+        border-radius: 30px;
+    }
+    p {
+        font-size: 20px;
+        margin: 15px 5px;
+        text-align: center;
+    }
+    aside, section {
+        border: 1px solid black;
+        border-radius: 30px; 
+        height: 230px;
+        width: 150px;
+        margin: 10px;
+    }
+    section {
+        float: left;
+    }
+    aside {
+       float: left;
+    }
   </style>
   <header>
     <div class="logo">
-      <img src="https://mars.algoritmika.org/uploads/2020/06/1538110630791_big_vlru_0_1591476484.jpg">
+      <img src="https://mars.algoritmika.org/uploads/2020/06/1538110630791_big_vlru_0_1591476484.jpg" width="70" height="70">
     </div>
     <h1>Курс «Создание веб-сайтов»</h1>
   </header>
   <main>
+      <section>
+            <img src="https://mars.algoritmika.org/uploads/2020/06/ch_0_1591480336.jpg" width="150" height="100" class="image-post">
+            <p>Фантазируй<br>Рисуй<br>Публикуй</p>
+      </section>
+      <section>
+            <img src="https://mars.algoritmika.org/uploads/2020/06/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_0_1591480513.png" width="150" height="100" class="image-post">
+            </div>
+            <p>Заходи на платформу в любое время</p>
+      </section>
+      <aside>
+            <img src="https://mars.algoritmika.org/uploads/2020/06/baa0556ed0210a524b1a1fa910e1e8434136e5c6_0_1591480274.jpg" width="150" height="100" class="image-post">
+            </div>
+            <p>Создавай команды с новыми друзьями</p>
+      </aside>
   </main>
   <footer>
+      Сайт: <a href="algoritmika.org">algoritmika.org</a>
+      <br>Телефон: +74951320752
   </footer>
  </html>
